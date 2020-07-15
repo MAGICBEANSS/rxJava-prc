@@ -1,4 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
-  <component name="Encoding" addBOMForNewFiles="with NO BOM" />
+  <component name="Encoding" addBOMForNewFiles="with NO BOM">
+    <file url="file://$USER_HOME$/worker/luna-worker/kube-uat-3-deployment-tomcat.yml" charset="UTF-8" />
+    <file url="file://$USER_HOME$/worker/luna-worker/kube-uat1-deployment-tomcat.yml" charset="UTF-8" />
+    <file url="file://$USER_HOME$/worker/luna-worker/src/main/java/com/niyo/workers/consumers/statements/PDFStatementAllTransactions.java" charset="UTF-8" />
+    <file url="file://$USER_HOME$/worker/luna-worker/src/main/java/com/niyo/workers/consumers/statements/StatementGenerationWorker.java" charset="UTF-8" />
+  </component>
 </project>

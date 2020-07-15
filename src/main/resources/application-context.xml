@@ -13,20 +13,18 @@
 		<property name="fullName" value="Lokesh Gupta"/>
 	</bean>
 
-	<bean id="a" class="com.howtodoinjava.core.autowire.byName.test.A" scope="prototype">
+	<bean id="a" class="com.howtodoinjava.core.autowire.byName.test.A">
 		<property name="b"  ref="b" />
 		<property name="varA"  value="props value A" />
 	</bean>
 
-	<bean id="b" class="com.howtodoinjava.core.autowire.byName.test.B" >
+	<bean id="b" class="com.howtodoinjava.core.autowire.byName.test.B"  scope="prototype">
 		<property name="c"  ref="c" />
 	</bean>
 
-	<bean id="c" class="com.howtodoinjava.core.autowire.byName.test.C" >
+	<bean id="c" class="com.howtodoinjava.core.autowire.byName.test.C"  scope="prototype">
 		<property name="varc"  value="cpropvalue" />
 	</bean>
-
-
 
 
 	<bean id="department" class="com.howtodoinjava.core.autowire.byName.Department" >
